@@ -1,0 +1,25 @@
+{
+  "name": "parallaxx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "harp server src & browser-sync start --proxy 'localhost:9000' --files 'src/**'",
+    "compile": "harp compile src www"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "harp": "^0.25.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaj/parallaxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhaj/parallaxx/issues"
+  },
+  "homepage": "https://github.com/bhaj/parallaxx#readme",
+  "description": ""
+}
